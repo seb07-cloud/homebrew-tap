@@ -1,28 +1,28 @@
 class Dktop < Formula
   desc "Docker container manager with a btop-style terminal interface"
   homepage "https://github.com/seb07-cloud/dktop"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/seb07-cloud/dktop/releases/download/v1.0.0/dktop-darwin-arm64"
-      sha256 "253ec412dab1070ea59215caeb28905e29d569ff2c946200d02015aa6a8ad6bb"
+      url "https://github.com/seb07-cloud/dktop/releases/download/v1.1.0/dktop-darwin-arm64"
+      sha256 "9ff192544411c11b684af174fd6a57fd1f2afbe73e83a4f9f2252efe1f8ea493"
     end
     on_intel do
-      url "https://github.com/seb07-cloud/dktop/releases/download/v1.0.0/dktop-darwin-amd64"
-      sha256 "d38b5598e01ea66fa612bda1e360fbf2b715b2dd88477174895c3e1bd71c51d9"
+      url "https://github.com/seb07-cloud/dktop/releases/download/v1.1.0/dktop-darwin-amd64"
+      sha256 "322870554372fdfae47b203421a2af1f1c965113191d31cd0ca50f5ab727a3c2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/seb07-cloud/dktop/releases/download/v1.0.0/dktop-linux-arm64"
-      sha256 "c09c10e61d67af9efc0b595821306dc3ce3ba4061589b79d13e2975d36dc041e"
+      url "https://github.com/seb07-cloud/dktop/releases/download/v1.1.0/dktop-linux-arm64"
+      sha256 "2ecdca67e78fe15931b4bfa112dedce40e00bf185233199f8abd9a9147039306"
     end
     on_intel do
-      url "https://github.com/seb07-cloud/dktop/releases/download/v1.0.0/dktop-linux-amd64"
-      sha256 "a2dd0713aab525a45be27fa7c57eb4eb12515694fcae203f975d5edc2dac2c6d"
+      url "https://github.com/seb07-cloud/dktop/releases/download/v1.1.0/dktop-linux-amd64"
+      sha256 "e89b90ed4d3d267cae8105426edb0d6dbc70963333357c7181f573a96f129410"
     end
   end
 
