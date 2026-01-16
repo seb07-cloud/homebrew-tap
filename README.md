@@ -6,7 +6,7 @@ Custom Homebrew formulae.
 
 ```bash
 brew tap seb07-cloud/tap
-brew install dktop
+brew install <formula>
 ```
 
 ## Available Formulae
@@ -14,3 +14,4 @@ brew install dktop
 | Formula | Description |
 |---------|-------------|
 | dktop | Docker container manager with a btop-style terminal interface |
+| pim-tui | Terminal UI for Azure PIM role activation |
